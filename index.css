@@ -1,0 +1,108 @@
+body{
+     font-family: sans-serif;
+     margin: 0;
+     padding: 0;
+}
+.wrapper{
+    background: url(Adeleke\ top.jpg)
+    no-repeat center center;
+    min-height: 30rem;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background: grey;
+    line-height: 60px;
+}
+nav ul{
+    float: right;
+    margin: 0;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+img{
+    width: 14%;
+    margin-left: 1rem;
+    margin-top: -4%;
+}
+nav ul li:hover{
+    background: coral;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.section{
+    width: 80%;
+    margin: auto;
+overflow: hidden;
+margin-top: 4%;
+}
+.section h1{
+    color: white;
+    line-height:70px;
+}
+.section p{
+    color: grey;
+}
+.btn-1{
+    background: orangered;
+    padding: 0.7rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.Features{
+    margin-top: 9%;
+    margin-bottom: 2%;
+}
+.Features button{
+    padding: 0.6rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+.courses{
+    display: flex;
+    text-align: center;
+    background: grey;
+}
+.courses img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.apply{
+    margin-top: 4%;
+    background: brown;
+    padding: 1rem;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4%;
+    text-shadow: 1px 3px black;
+    font-style: oblique;
+    }
+img:hover{
+   transform: scale(1.1);
+   transition: 1s all;
+}
